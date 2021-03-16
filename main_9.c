@@ -14,7 +14,7 @@ void printJogo(tJogo jogo);
 
 int main(void) { // Ponto de entrada do Programa 
 
-	printf("Trabalhando com alocação dinâmica\n");
+	printf("Trabalhando com tipos de dados e estruturas\n");
 	printf("A função rand() gera um inteiro entre 0 e RAND_MAX\n");
 	printf("RAND_MAX = %d\n", RAND_MAX);
 	// Declarando e Inicializando o jogo
