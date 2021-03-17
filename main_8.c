@@ -25,7 +25,7 @@ int main(void) { // Ponto de entrada do Programa
 	printf("A mesma semente gera o mesmo resultado!\n");
 	printf("Escolhendo a semente de forma automatica\n");
 	jogaOsDados(jogo, 1, 6, 10, -1);
-	printJogo(jogo, 10);
+	printJogo(jogo, 12);
 	printf("Todas as vezes que rodar este exemplo gera diferentes resultados!\n");
 	free(jogo);
 	return 0;

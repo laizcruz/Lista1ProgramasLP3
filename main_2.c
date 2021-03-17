@@ -60,12 +60,12 @@ int main(void) { // Ponto de entrada do Programa
 	// Operadores de incremento e decremento
 	printf("Operadores de Incremento e decremento\n");
 	printf("a = %d\n", a);
-	++a; // a = a + 1
-	printf("++a = %d\n", a);
+	//++a; // a = a + 1
+	printf("++a = %d\n", ++a);
 	printf("a++ = %d\n", a++);
 	printf("a = %d\n", a);
-	--a;
-	printf("--a = %d\n", a);
+	//--a;
+	printf("--a = %d\n", --a);
 	printf("a-- = %d\n", a--);
 	printf("a = %d\n", a);
 	printf("________________________________________\n");

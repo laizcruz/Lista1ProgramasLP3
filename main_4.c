@@ -12,16 +12,15 @@ int main(void) { // Ponto de entrada do Programa
 	printf("Entre com um número inteiro:");
 	int err = scanf("%d", &n);
 	//Estrutura de seleção simples if
-	if(n % 2 == 0){
+	if(n % 2 == 0)
 		printf("O número %d é par!\n", n);
-	}
 	if(n % 2 != 0){
 		printf("O número %d é impar!\n", n);
 	}
 	//Estrutura de seleção if/else
-	if(n%3){ //diferente de zero é true, zero é false
+	if(n%3){ //diferente de zero é true, zero é false (n%3 != 0)
 		printf("O número %d não é múltiplo de 3!\n", n);
-	}else{
+	}else{  //(n%3 == 0)
 		printf("O número %d é múltiplo de 3!\n", n);
 	}
 	//Estrutura de seleção múltipla switch-case
@@ -86,6 +85,7 @@ int main(void) { // Ponto de entrada do Programa
 		soma += i;
 	}
 	printf("A sooma de todos os inteiros de 1 até %d é %d\n", chute, soma);
+  
 	(soma == chute*(chute+1)/2)?printf("Resposta correta\n"):printf("Resposta errada\n");
 
 	return 0;
