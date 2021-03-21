@@ -63,6 +63,14 @@ int main(void) { // Ponto de entrada do Programa
 	printf("%f == %f = %d\n", y5, y1, y5 == y1);
 	printf("%f != %f = %d\n", y5, y1, y5 != y1);
 	printf("________________________________________\n");
+	
+	y = 1.0;
+	y1 = y2 = y3 = 1/3;
+	y4 = y5 = 1/2;
+	if ((y1+y2+y3 == y))
+		printf("Identidade confirmada\n");
+	else
+		printf("Erros de truncamento!!!\n");
 		
   return 0;
 
