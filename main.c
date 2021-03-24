@@ -9,6 +9,5 @@ int main(void) { // Ponto de entrada do Programa
   printf("Whats your name?"); 
   int err = scanf("%s", name);          //input
   printf("Hi %s, good to see you here!!!\n", name);
-	printf("Ok\n");
   return 0;
 }
